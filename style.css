@@ -91,3 +91,59 @@
     font-size: 15px;
     line-height: 1.6;
 }
+.content-area {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.speaker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 750px;
+    margin: 30px auto 0 auto;
+}
+
+.speaker-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    width: 340px;
+    text-align: left;
+    background-color: white;
+    overflow: hidden;
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.category {
+    font-size: 11px;
+    color: #2563eb;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.speaker-card h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.sub-title {
+    font-size: 13px;
+    color: #777777;
+}
